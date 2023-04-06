@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title> Ejercicio 10</title>
+        <link rel="stylesheet" type="text/css" href="css/eje-remc-10.css" media="screen"/>
+</head>
+<body>
+    <header>
+        <h1> Ejercicio 10 </h1>
+        <hr>
+        <nav>
+            <ul>
+                <il><a href="../index.html">Inicio</a></il>
+                <il><a href="../departamental1/index.html">Departamental 1</a></il>
+                <il><a href="../departamental2/index.html">Departamental 2</a></il>
+                <il><a href="../departamental3/index.html">Departamental 3</a></il>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <div id="container">
+            <form name="calculator">
+                <h2>Calculadora Básica</h2>
+                <div id="entradas">
+                    <input type="text" name="ent1" id="ent1" placeholder="0" class="entrada" >
+                    <input type="text" name="ent2" id="ent2" placeholder="0" class="entrada">
+                </div>
+                <div>
+                    <label for="resultado" id="res">Resultado: 0.0</label>
+                </div>
+                <div id="botones">
+                    <input type="button" value="+" class="boton" onclick="sumaNumeros();">
+                    <input type="button" value="-" class="boton" onclick="restaNumeros();">
+                    <input type="button" value="*" class="boton" onclick="multiplicaNumeros();">
+                    <input type="button" value="/" class="boton" onclick="divideNumeros();">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy; Gracias a Yave Vargas 2023</p>
+    </footer>
+    <script src="js/eje-remc-10.js"></script>
+</body>
+</html>
